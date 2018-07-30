@@ -15,5 +15,8 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    compile group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13'
+	compile group: 'com.itextpdf.tool', name: 'xmlworker', version: '5.4.1'
 }
 
